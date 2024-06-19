@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cho Thuê Phòng Trọ</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cho Thuê Phòng Trọ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="rooms.html">Danh Sách Phòng</a></li>
+                <li><a href="contact.html">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="intro">
+            <h2>Chào mừng đến với dịch vụ cho thuê phòng trọ của chúng tôi!</h2>
+            <p>Chúng tôi cung cấp các phòng trọ tiện nghi, giá cả hợp lý tại nhiều địa điểm khác nhau. Hãy tìm kiếm phòng trọ phù hợp với bạn!</p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cho Thuê Phòng Trọ</p>
+    </footer>
+</body>
+</html>    
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Danh Sách Phòng Trọ</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header>
+        <h1>Cho Thuê Phòng Trọ</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Trang Chủ</a></li>
+                <li><a href="rooms.html">Danh Sách Phòng</a></li>
+                <li><a href="contact.html">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="rooms-list">
+            <h2>Danh Sách Phòng Trọ</h2>
+            <div class="room">
+                <h3>Phòng Trọ 1</h3>
+                <p>Giá: 3,000,000 VND/tháng</p>
+                <a href="room-details.html">Chi Tiết</a>
+            </div>
+            <div class="room">
+                <h3>Phòng Trọ 2</h3>
+                <p>Giá: 2,500,000 VND/tháng</p>
+                <a href="room-details.html">Chi Tiết</a>
+            </div>
+            <!-- Thêm các phòng khác ở đây -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Cho Thuê Phòng Trọ</p>
+    </footer>
+</body>
+</html>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.room, .contact form {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.contact form label, .contact form input, .contact form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.contact form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
